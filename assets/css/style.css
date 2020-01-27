@@ -2,3 +2,93 @@ body {
     font-family: "montserrat", sans-serif;
  
 }
+
+.navbar {
+    background: #001515;
+}
+
+header {
+  background-image: url('../img/BG-hero.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  height: 100%;
+}
+
+.botonera-header {
+    text-align: center;
+    padding-top: 45rem;
+}
+
+
+
+
+
+
+
+/*-- inicio media queries --*/
+
+
+@media (max-width: 1280px) {
+    header { 
+        background-size: 110%;
+        
+        
+    } 
+}
+
+@media (max-width: 980px) {
+    header { 
+        background-size: 130%;
+       
+    } 
+}
+
+@media (max-width: 720px) {
+    header { 
+        background-size: 160%;
+       
+    } 
+}
+
+@media (max-width: 1680px) {
+    .botonera-header { 
+        padding-top: 40rem;   
+    } 
+}
+
+@media (max-width: 1480px) {
+    .botonera-header { 
+        padding-top: 35rem;   
+    } 
+}
+
+@media (max-width: 1180px) {
+    .botonera-header { 
+        padding-top: 30rem;   
+    } 
+}
+
+@media (max-width: 980px) {
+    .botonera-header { 
+        padding-top: 27rem;   
+    } 
+}
+
+@media (max-width: 680px) {
+    .botonera-header { 
+        padding-top: 22rem;   
+    } 
+}
+
+@media (max-width: 440px) {
+    .botonera-header { 
+        padding-top: 18rem;   
+    } 
+}
+
+@media (max-width: 350px) {
+    .botonera-header { 
+        padding-top: 11rem;   
+    } 
+}
