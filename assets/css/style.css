@@ -18,10 +18,48 @@ header {
 .botonera-header {
     text-align: center;
     padding-top: 45rem;
+   
+}
+
+
+.texto-boton {
+     text-decoration: none;    
+}
+
+
+.descripcion {
+    background-color: #ffffff;
+}
+
+.texto-descripcion {
+   padding-top: 2rem; 
+    
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: 800;
+    text-align: left;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+article {
+    padding-top: 2rem;
 }
 
 
 
+
+/*-- Footer --*/
+
+.contenedor {
+    border-top: 1px solid #EEEEEE;
+}
+.icono-footer {  
+    font-size: 40px;
+    height: 50px;   
+    margin-top: 1.5rem;
+}
 
 
 
@@ -47,9 +85,24 @@ header {
 @media (max-width: 720px) {
     header { 
         background-size: 160%;
-       
+        height: 60%;  
     } 
 }
+
+@media (max-width: 350px) {
+    header { 
+        background-size: 180%;
+        height: 40%;  
+    } 
+}
+
+@media (max-width: 320px) {
+    header { 
+        background-size: 210%;     
+        height: 37%;  
+    } 
+}
+
 
 @media (max-width: 1680px) {
     .botonera-header { 
@@ -83,12 +136,19 @@ header {
 
 @media (max-width: 440px) {
     .botonera-header { 
-        padding-top: 18rem;   
+        padding-top: 17rem;   
     } 
 }
 
 @media (max-width: 350px) {
     .botonera-header { 
-        padding-top: 11rem;   
+        padding-top: 12rem;   
+    } 
+}
+
+@media (max-width: 350px) {
+    .texto-footer {
+        padding-top: 0.3rem;
+       font-size: 12px;
     } 
 }
