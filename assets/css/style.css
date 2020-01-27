@@ -47,7 +47,10 @@ article {
     padding-top: 2rem;
 }
 
-
+.portafolio {
+    height: 60rem;
+    background: #DDDDDD;
+}
 
 
 /*-- Footer --*/
@@ -70,9 +73,7 @@ article {
 
 @media (max-width: 1280px) {
     header { 
-        background-size: 110%;
-        
-        
+        background-size: 110%;    
     } 
 }
 
@@ -85,10 +86,19 @@ article {
 
 @media (max-width: 720px) {
     header { 
-        background-size: 160%;
+        background-size: 140%;
         height: 60%;  
     } 
 }
+
+
+@media (max-width: 520px) {
+    header { 
+        background-size: 150%;
+        height: 60%;  
+    } 
+}
+
 
 @media (max-width: 350px) {
     header { 
@@ -97,67 +107,51 @@ article {
     } 
 }
 
-@media (max-width: 320px) {
-    header { 
-        background-size: 210%;     
-        height: 37%;  
-    } 
-}
 
 
 @media (max-width: 1680px) {
     .botonera-header { 
-        padding-top: 40rem;   
+        padding-top: 38rem;   
     } 
 }
 
 @media (max-width: 1480px) {
     .botonera-header { 
-        padding-top: 35rem;   
+        padding-top: 34rem;   
     } 
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1280px) {
     .botonera-header { 
-        padding-top: 30rem;   
+        padding-top: 32rem;   
+    } 
+}
+
+@media (max-width: 1100px) {
+    .botonera-header { 
+        padding-top: 31rem;   
     } 
 }
 
 @media (max-width: 980px) {
     .botonera-header { 
-        padding-top: 27rem;   
+        padding-top: 30rem;   
+    
     } 
 }
 
-@media (max-width: 680px) {
+@media (max-width: 850px) {
     .botonera-header { 
-        padding-top: 22rem;   
+        padding-top: 25rem;   
+
+    } 
+}
+@media (max-width: 755px) {
+    .botonera-header { 
+        display: none;  
     } 
 }
 
-@media (max-width: 550px) {
-    .botonera-header { 
-        padding-top: 18rem;   
-    } 
-}
-
-@media (max-width: 440px) {
-    .botonera-header { 
-        padding-top: 16rem;   
-    } 
-}
-
-@media (max-width: 350px) {
-    .botonera-header { 
-        padding-top: 11rem;   
-    } 
-}
-
-@media (max-width: 320px) {
-    .botonera-header { 
-        padding-top: 2.5em;   
-    } 
-}
 
 
 @media (max-width: 350px) {
