@@ -47,11 +47,18 @@ article {
     padding-top: 2rem;
 }
 
+
+/*-- Trabajos --*/
+
+
 .portafolio {
-    height: 60rem;
-    background: #DDDDDD;
+    height: 45rem;
+    background: #001515;
 }
 
+h5 {
+    font-weight: 1000;
+}
 
 /*-- Footer --*/
 
